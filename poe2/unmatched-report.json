@@ -1,9 +1,9 @@
 {
   "gameVersion": "poe2",
-  "generatedAt": "2026-11-21T17:21:17.005Z",
+  "generatedAt": "2026-11-22T13:40:10.382Z",
   "totalTiers": 3833,
-  "matchedCount": 3767,
-  "unmatchedCount": 66,
+  "matchedCount": 3768,
+  "unmatchedCount": 65,
   "matchRate": "98.3%",
   "summaryByTemplate": [
     {
@@ -580,16 +580,6 @@
       "sampleTypes": [
         "shield",
         "buckler"
-      ]
-    },
-    {
-      "template": "攻擊不能造成流血",
-      "count": 1,
-      "affinities": [
-        "bonded"
-      ],
-      "sampleTypes": [
-        "talisman"
       ]
     }
   ],
@@ -1803,20 +1793,6 @@
       "types": [
         "shield",
         "buckler"
-      ],
-      "affinities": [
-        "bonded"
-      ],
-      "level": "1"
-    },
-    {
-      "modId": "SoulCore_518_bonded",
-      "template": "attacks cannot cause bleeding",
-      "template_zh": "攻擊不能造成流血",
-      "key": "attacks cannot cause bleeding",
-      "key_zh": "攻擊不能造成流血",
-      "types": [
-        "talisman"
       ],
       "affinities": [
         "bonded"

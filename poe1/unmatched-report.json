@@ -1,6 +1,6 @@
 {
   "gameVersion": "poe1",
-  "generatedAt": "2026-11-21T17:21:32.770Z",
+  "generatedAt": "2026-11-22T13:40:32.604Z",
   "totalTiers": 17128,
   "matchedCount": 16717,
   "unmatchedCount": 411,
@@ -86,6 +86,16 @@
       ],
       "sampleTypes": [
         "jewel"
+      ]
+    },
+    {
+      "template": "區域內含 # 隻額外紅色野獸",
+      "count": 3,
+      "affinities": [
+        "normal"
+      ],
+      "sampleTypes": [
+        "map"
       ]
     },
     {
@@ -399,7 +409,7 @@
       ]
     },
     {
-      "template": "區域內可以找到{}%更多綢帶",
+      "template": "區域內可以找到#%更多綢帶",
       "count": 2,
       "affinities": [
         "normal"
@@ -409,7 +419,7 @@
       ]
     },
     {
-      "template": "區域內掉落的通貨增加 {}%",
+      "template": "區域內掉落的通貨增加 #%",
       "count": 2,
       "affinities": [
         "normal"
@@ -449,7 +459,7 @@
       ]
     },
     {
-      "template": "最終頭目會掉落額外 1 個傳奇物品",
+      "template": "最終頭目會掉落額外 # 個傳奇物品",
       "count": 2,
       "affinities": [
         "normal"
@@ -519,27 +529,7 @@
       ]
     },
     {
-      "template": "-",
-      "count": 2,
-      "affinities": [
-        "normal"
-      ],
-      "sampleTypes": [
-        "map"
-      ]
-    },
-    {
       "template": "區域含有攻擊性圖騰",
-      "count": 1,
-      "affinities": [
-        "normal"
-      ],
-      "sampleTypes": [
-        "map"
-      ]
-    },
-    {
-      "template": "區域內含 # 隻額外紅色野獸",
       "count": 1,
       "affinities": [
         "normal"
@@ -559,7 +549,7 @@
       ]
     },
     {
-      "template": "瓦爾容器包含 1 個額外瓦爾寶石",
+      "template": "瓦爾容器包含 # 個額外瓦爾寶石",
       "count": 1,
       "affinities": [
         "normal"
@@ -619,7 +609,7 @@
       ]
     },
     {
-      "template": "瓦爾容器包含 1 個額外給予已汙染道具的命運卡",
+      "template": "瓦爾容器包含 # 個額外給予已汙染道具的命運卡",
       "count": 1,
       "affinities": [
         "normal"
@@ -629,7 +619,7 @@
       ]
     },
     {
-      "template": "瓦爾容器包含 1 個額外瓦爾寶珠",
+      "template": "瓦爾容器包含 # 個額外瓦爾寶珠",
       "count": 1,
       "affinities": [
         "normal"
@@ -639,7 +629,7 @@
       ]
     },
     {
-      "template": "瓦爾容器包含 1 張額外有許多瓦爾人民的地圖",
+      "template": "瓦爾容器包含 # 張額外有許多瓦爾人民的地圖",
       "count": 1,
       "affinities": [
         "normal"
@@ -1599,7 +1589,7 @@
       ]
     },
     {
-      "template": "怪物承受 {}% 更少傷害",
+      "template": "怪物承受 #% 更少傷害",
       "count": 1,
       "affinities": [
         "normal"
@@ -2633,7 +2623,7 @@
       ]
     },
     {
-      "template": "{}% 更少發現的物品數量|||||找到帶有記憶絲縷的物品時，其具有 {:+d} 記憶絲縷",
+      "template": "#% 更少發現的物品數量|||||找到帶有記憶絲縷的物品時，其具有 +# 記憶絲縷",
       "count": 1,
       "affinities": [
         "normal"
@@ -2848,10 +2838,10 @@
     },
     {
       "modId": "MapCorruptedSideAreaVesselVaalGemDrop",
-      "template": "vaal vessel contains an additional vaal gem",
-      "template_zh": "瓦爾容器包含 1 個額外瓦爾寶石",
-      "key": "vaal vessel contains an additional vaal gem",
-      "key_zh": "瓦爾容器包含 1 個額外瓦爾寶石",
+      "template": "vaal vessel contains # additional vaal gems",
+      "template_zh": "瓦爾容器包含 # 個額外瓦爾寶石",
+      "key": "vaal vessel contains (1-2) additional vaal gems",
+      "key_zh": "瓦爾容器包含 (1-2) 個額外瓦爾寶石",
       "types": [
         "map"
       ],
@@ -2932,10 +2922,10 @@
     },
     {
       "modId": "MapCorruptedSideAreaVesselDivinationCardDrop",
-      "template": "vaal vessel contains an additional divination card that give corrupted items",
-      "template_zh": "瓦爾容器包含 1 個額外給予已汙染道具的命運卡",
-      "key": "vaal vessel contains an additional divination card that give corrupted items",
-      "key_zh": "瓦爾容器包含 1 個額外給予已汙染道具的命運卡",
+      "template": "vaal vessel contains # additional divination cards that give corrupted items",
+      "template_zh": "瓦爾容器包含 # 個額外給予已汙染道具的命運卡",
+      "key": "vaal vessel contains (1-3) additional divination cards that give corrupted items",
+      "key_zh": "瓦爾容器包含 (1-3) 個額外給予已汙染道具的命運卡",
       "types": [
         "map"
       ],
@@ -2946,10 +2936,10 @@
     },
     {
       "modId": "MapCorruptedSideAreaVesselVaalOrbDrop_",
-      "template": "vaal vessel contains an additional vaal orb",
-      "template_zh": "瓦爾容器包含 1 個額外瓦爾寶珠",
-      "key": "vaal vessel contains an additional vaal orb",
-      "key_zh": "瓦爾容器包含 1 個額外瓦爾寶珠",
+      "template": "vaal vessel contains # additional vaal orbs",
+      "template_zh": "瓦爾容器包含 # 個額外瓦爾寶珠",
+      "key": "vaal vessel contains (1-3) additional vaal orbs",
+      "key_zh": "瓦爾容器包含 (1-3) 個額外瓦爾寶珠",
       "types": [
         "map"
       ],
@@ -2960,10 +2950,10 @@
     },
     {
       "modId": "MapCorruptedSideAreaVaalImplicitMapDrop",
-      "template": "vaal vessel contains an additional map that is inhabited by the vaal",
-      "template_zh": "瓦爾容器包含 1 張額外有許多瓦爾人民的地圖",
-      "key": "vaal vessel contains an additional map that is inhabited by the vaal",
-      "key_zh": "瓦爾容器包含 1 張額外有許多瓦爾人民的地圖",
+      "template": "vaal vessel contains # additional maps that are inhabited by the vaal",
+      "template_zh": "瓦爾容器包含 # 張額外有許多瓦爾人民的地圖",
+      "key": "vaal vessel contains (1-2) additional maps that are inhabited by the vaal",
+      "key_zh": "瓦爾容器包含 (1-2) 張額外有許多瓦爾人民的地圖",
       "types": [
         "map"
       ],
@@ -5536,10 +5526,10 @@
     },
     {
       "modId": "MayhemEventDifficultyDecreasedMonsterDamageTaken",
-      "template": "monsters take {}% less damage",
-      "template_zh": "怪物承受 {}% 更少傷害",
-      "key": "monsters take {}% less damage",
-      "key_zh": "怪物承受 {}% 更少傷害",
+      "template": "monsters take #% less damage",
+      "template_zh": "怪物承受 #% 更少傷害",
+      "key": "monsters take 35% less damage",
+      "key_zh": "怪物承受 35% 更少傷害",
       "types": [
         "map"
       ],
@@ -7305,10 +7295,10 @@
     },
     {
       "modId": "MemoryAltarScarabChance",
-      "template": "{}% more threads found in area",
-      "template_zh": "區域內可以找到{}%更多綢帶",
-      "key": "{}% more threads found in area",
-      "key_zh": "區域內可以找到{}%更多綢帶",
+      "template": "#% more threads found in area",
+      "template_zh": "區域內可以找到#%更多綢帶",
+      "key": "(30-50)% more threads found in area",
+      "key_zh": "區域內可以找到(30-50)%更多綢帶",
       "types": [
         "map"
       ],
@@ -7319,10 +7309,10 @@
     },
     {
       "modId": "MemoryAltarCurrencyChance",
-      "template": "{}% more currency found in area",
-      "template_zh": "區域內掉落的通貨增加 {}%",
-      "key": "{}% more currency found in area",
-      "key_zh": "區域內掉落的通貨增加 {}%",
+      "template": "#% more currency found in area",
+      "template_zh": "區域內掉落的通貨增加 #%",
+      "key": "(30-50)% more currency found in area",
+      "key_zh": "區域內掉落的通貨增加 (30-50)%",
       "types": [
         "map"
       ],
@@ -7529,10 +7519,10 @@
     },
     {
       "modId": "MemoryAltarMapBossAdditionalUniques",
-      "template": "final boss drops an additional unique item",
-      "template_zh": "最終頭目會掉落額外 1 個傳奇物品",
-      "key": "final boss drops an additional unique item",
-      "key_zh": "最終頭目會掉落額外 1 個傳奇物品",
+      "template": "final boss drops # additional unique items",
+      "template_zh": "最終頭目會掉落額外 # 個傳奇物品",
+      "key": "final boss drops (1-2) additional unique items",
+      "key_zh": "最終頭目會掉落額外 (1-2) 個傳奇物品",
       "types": [
         "map"
       ],
@@ -7641,10 +7631,10 @@
     },
     {
       "modId": "EagonMissionScarabChance",
-      "template": "{}% more threads found in area",
-      "template_zh": "區域內可以找到{}%更多綢帶",
-      "key": "{}% more threads found in area",
-      "key_zh": "區域內可以找到{}%更多綢帶",
+      "template": "#% more threads found in area",
+      "template_zh": "區域內可以找到#%更多綢帶",
+      "key": "(15-25)% more threads found in area",
+      "key_zh": "區域內可以找到(15-25)%更多綢帶",
       "types": [
         "map"
       ],
@@ -7655,10 +7645,10 @@
     },
     {
       "modId": "EagonMissionCurrencyChance",
-      "template": "{}% more currency found in area",
-      "template_zh": "區域內掉落的通貨增加 {}%",
-      "key": "{}% more currency found in area",
-      "key_zh": "區域內掉落的通貨增加 {}%",
+      "template": "#% more currency found in area",
+      "template_zh": "區域內掉落的通貨增加 #%",
+      "key": "(15-25)% more currency found in area",
+      "key_zh": "區域內掉落的通貨增加 (15-25)%",
       "types": [
         "map"
       ],
@@ -7683,10 +7673,10 @@
     },
     {
       "modId": "EagonMissionMapBossAdditionalUniques",
-      "template": "final boss drops an additional unique item",
-      "template_zh": "最終頭目會掉落額外 1 個傳奇物品",
-      "key": "final boss drops an additional unique item",
-      "key_zh": "最終頭目會掉落額外 1 個傳奇物品",
+      "template": "final boss drops # additional unique items",
+      "template_zh": "最終頭目會掉落額外 # 個傳奇物品",
+      "key": "final boss drops (1-2) additional unique items",
+      "key_zh": "最終頭目會掉落額外 (1-2) 個傳奇物品",
       "types": [
         "map"
       ],
@@ -8173,10 +8163,10 @@
     },
     {
       "modId": "MapMoreZanaInfluenceFewerDropsEnchant",
-      "template": "{}% less quantity of items found|||||found items with memory strands have {:+d} memory strands",
-      "template_zh": "{}% 更少發現的物品數量|||||找到帶有記憶絲縷的物品時，其具有 {:+d} 記憶絲縷",
-      "key": "{}% less quantity of items found|||||found items with memory strands have {:+d} memory strands",
-      "key_zh": "{}% 更少發現的物品數量|||||找到帶有記憶絲縷的物品時，其具有 {:+d} 記憶絲縷",
+      "template": "#% less quantity of items found|||||found items with memory strands have +# memory strands",
+      "template_zh": "#% 更少發現的物品數量|||||找到帶有記憶絲縷的物品時，其具有 +# 記憶絲縷",
+      "key": "20% less quantity of items found|||||found items with memory strands have +12 memory strands",
+      "key_zh": "20% 更少發現的物品數量|||||找到帶有記憶絲縷的物品時，其具有 +12 記憶絲縷",
       "types": [
         "map"
       ],
@@ -8369,10 +8359,10 @@
     },
     {
       "modId": "RandomJuiceModBestiaryExtraRedBeasts",
-      "template": "",
-      "template_zh": "-",
-      "key": "",
-      "key_zh": "-",
+      "template": "area contains # additional red beasts",
+      "template_zh": "區域內含 # 隻額外紅色野獸",
+      "key": "area contains (2-4) additional red beasts",
+      "key_zh": "區域內含 (2-4) 隻額外紅色野獸",
       "types": [
         "map"
       ],
@@ -8383,10 +8373,10 @@
     },
     {
       "modId": "RandomJuiceModBestiaryRedBeastInvasion",
-      "template": "",
-      "template_zh": "-",
-      "key": "",
-      "key_zh": "-",
+      "template": "area contains # additional red beasts",
+      "template_zh": "區域內含 # 隻額外紅色野獸",
+      "key": "area contains (18-20) additional red beasts",
+      "key_zh": "區域內含 (18-20) 隻額外紅色野獸",
       "types": [
         "map"
       ],
