@@ -1,29 +1,29 @@
 {
   "poe2/game": {
-    "builtAt": "2026-11-22T16:41:31.429Z",
+    "builtAt": "2026-11-23T09:56:40.997Z",
     "patch": "0.5.5.10"
   },
   "poe1/game": {
-    "builtAt": "2026-11-22T16:41:56.614Z",
-    "patch": "3.30.0.4"
+    "builtAt": "2026-11-23T09:57:08.336Z",
+    "patch": "3.30.0.4.3"
   },
   "poe1/mercenary": {
-    "builtAt": "2026-11-22T16:41:59.156Z",
-    "patch": "3.30.0.4"
+    "builtAt": "2026-11-23T09:57:09.770Z",
+    "patch": "3.30.0.4.3"
   },
   "poe1/trade-filters": {
-    "builtAt": "2026-11-22T16:42:57.661Z",
+    "builtAt": "2026-11-23T09:58:08.086Z",
     "staleLocales": [
       "ko"
     ]
   },
   "poe2/trade-filters": {
-    "builtAt": "2026-11-22T16:42:57.661Z",
+    "builtAt": "2026-11-23T09:58:08.087Z",
     "staleLocales": [
       "ko"
     ]
   },
   "market": {
-    "builtAt": "2026-11-22T16:43:40.162Z"
+    "builtAt": "2026-11-23T09:58:41.277Z"
   }
 }
