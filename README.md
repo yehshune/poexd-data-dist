@@ -1,8 +1,8 @@
 # poexd-data-dist
 
-[PoeXD-Extension](https://github.com/yehshune/PoeXD-Extension) 使用的已發布遊戲資料。這個 repo 只放產出，不放產生資料的程式。
+[PoeXD-Extension](https://github.com/yehshune/PoeXD-Extension) 使用的已發布遊戲資料。
 
-Published game data for [PoeXD-Extension](https://github.com/yehshune/PoeXD-Extension). This repository holds generated output only.
+Published game data for [PoeXD-Extension](https://github.com/yehshune/PoeXD-Extension).
 
 ## 內容
 
