@@ -1,7 +1,7 @@
 {
   "manifestVersion": 1,
-  "generatedAt": "2026-11-25T03:22:01.109Z",
-  "sourceCommit": "29cfa4915bd8a8e9eb838feaf0ff3ecb6b76befa",
+  "generatedAt": "2026-11-25T03:32:32.239Z",
+  "sourceCommit": "6017a1b1adbb21cf1ca0b843b5aea4128528563c",
   "games": {
     "poe1": {
       "patchVersion": "3.30.0.4.3"
@@ -24,19 +24,19 @@
       "patch": "3.30.0.4.3"
     },
     "poe1/trade-filters": {
-      "builtAt": "2026-11-25T03:21:19.079Z",
+      "builtAt": "2026-11-25T03:32:02.654Z",
       "staleLocales": [
         "ko"
       ]
     },
     "poe2/trade-filters": {
-      "builtAt": "2026-11-25T03:21:19.079Z",
+      "builtAt": "2026-11-25T03:32:02.655Z",
       "staleLocales": [
         "ko"
       ]
     },
     "market": {
-      "builtAt": "2026-11-25T03:21:58.491Z"
+      "builtAt": "2026-11-25T03:32:31.063Z"
     },
     "folder-icons": {
       "builtAt": "2026-11-25T03:20:17.644Z",
@@ -548,8 +548,8 @@
     },
     "locales/zh-TW/trade-ui.json": {
       "batch": "market",
-      "sha256": "b5c1a86e5fdc763b988074f1037dbf4262169f89f4003694594ef6ef7e0fff00",
-      "bytes": 56424,
+      "sha256": "41fef5ba0eea1235b2c049f8f45b0befa70b052c47af9ab6742785b817148761",
+      "bytes": 56562,
       "schema": 1
     },
     "poe1/item-art.json": {
@@ -822,7 +822,7 @@
     },
     "poe1/locales/zh-CN/trade-stats.json": {
       "batch": "market",
-      "sha256": "8f81da84d5458f79cbb458e876e83422b50127bd16e8ed66679e1ddd944157c3",
+      "sha256": "a59486875f85667b6df59c2b19cec1f41b72077965c8323d508f997ca4d2ed58",
       "bytes": 1453471,
       "schema": 1
     },
@@ -892,7 +892,7 @@
     },
     "poe1/locales/zh-TW/trade-stats.json": {
       "batch": "market",
-      "sha256": "51568d43765a3eb64f0afdaf6cbf51b0d952f4bdc4d82397e3062f7f7a3586cf",
+      "sha256": "cba5a01c5b1aa0455a9c29959f867ef623a7a6fb93f367ae633653d0ee2dee50",
       "bytes": 1408147,
       "schema": 1
     },
@@ -972,7 +972,7 @@
     },
     "poe2/locales/en/trade-stats.json": {
       "batch": "market",
-      "sha256": "7534f07e253b454bcb1332262209a0d297cd541a3c0b9ef107a8351fe85dd929",
+      "sha256": "57df4843c5c4aea1becf369856996dfa83a69e8f925d92b8e2867a4858eebf89",
       "bytes": 587264,
       "schema": 1
     },
@@ -1138,7 +1138,7 @@
     },
     "poe2/locales/zh-CN/trade-stats.json": {
       "batch": "market",
-      "sha256": "23974b947ec91992f9102208ab3bbcebdfe9b427a3b4f192717828cee84eec3d",
+      "sha256": "efd7f39cdb6be62e5095c430f8e54fada253d2e8e9bc7d8fce23babc4effc39d",
       "bytes": 531589,
       "schema": 1
     },
@@ -1203,7 +1203,7 @@
     },
     "poe2/locales/zh-TW/trade-stats.json": {
       "batch": "market",
-      "sha256": "41a5c5c55446784888824017c0ba4e24847dab75bbc92aa2743a97313ddcf585",
+      "sha256": "1876b3ac65f10af35e5687817a60d295c7a45b9033b044048c050962b25a1f92",
       "bytes": 520498,
       "schema": 1
     },
